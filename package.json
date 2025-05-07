@@ -1,0 +1,35 @@
+{
+  "name": "ectomere-api",
+  "module": "index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.15.14",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^11.9.1",
+    "color-convert": "^3.0.1",
+    "cors": "^2.8.5",
+    "drizzle-orm": "^0.43.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "winston": "^3.17.0",
+    "zod": "^3.24.4"
+  }
+}
